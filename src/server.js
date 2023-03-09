@@ -14,4 +14,8 @@ app.use(require('./routes/index'));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/', async (req, res) => {
+    res.render("index.html");
+});
+
 app.listen(3000);
