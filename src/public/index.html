@@ -21,7 +21,6 @@
                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
                     <li><a href="#portfolio" onclick="seleccionar()">PROYECTOS</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -34,10 +33,10 @@
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="img/programer.jpeg" alt="">
+                <img src="img/developer.jpg" alt="">
             </div>
             <h1>DANY ALFARO</h1>
-            <h2>Estudiante - Ingeniería de Software</h2>
+            <h2>Ingeniería de Software</h2>
             <div class="redes">
                 <a href="https://github.com/Dalfaro-dev" target="_blank"><i class="fa-brands fa-github"></i></i></a>
                 <a href="mailto:dannyam2104@gmail.com"><i class="fa-brands fa-google" target="_blank"></i></a>
@@ -50,8 +49,8 @@
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Dany Alfaro.</span> Me dedico a desarrollar software y estudiar al mismo tiempo. 
-                Soy estudiante de la carrera Ingeniería de Software, actualmente curso el ultimo año en la Universidad 
+            <p><span>Hola, soy Dany Alfaro.</span> Me dedico a desarrollar software. 
+                Soy estudiante de la carrera Ingeniería de Software, actualmente curso el último año en la Universidad 
                 y me gusta compartir mis proyectos en este sitio web. 
             </p>
             <hr>
@@ -72,10 +71,6 @@
                         <li>
                             <strong>Dirección</strong>
                             Grecia, Alajuela, Costa Rica
-                        </li>
-                        <li>
-                            <strong>Cargo</strong>
-                            <span>Estudiante</span>
                         </li>
                     </ul>
                 </div>
@@ -167,45 +162,14 @@
                 <div class="proyecto">
                     <img src="img/movies.PNG" alt="">
                     <div class="overlay">
-                        <h3>Movies app</h3>
-                        <p><a href="http://movieapp.somee.com/" target="_blank">Ver</a></p>
+                        <h3>Confecciones Helen</h3>
+                        <p><a href="https://confeccioneshelen.com" target="_blank">Ver</a></p>
                     </div>     
                     <p  class="proyecto-descripcion">
-                        Movies app es una aplicacion web con un mantenimiento de peliculas y géneros, la aplicacion cuenta
-                        con una autorizacion basada en roles. Teconologías que usa: C# .NET, SqlServer.
+                        Confecciones Helen es una aplicación web hecha para una empresa real, es un e-commerce desarrollado en .NET, SQLServer y Firebase Storage para almacenar imágenes. La aplicacion cuenta
+                        con autenticación y autorización basada en roles para garantizar seguridad en la sección de administración.
                     </p>         
                 </div>
-                <div class="proyecto">
-                    <img src="img/ai.PNG" alt="">
-                    <div class="overlay">
-                        <h3>Image Generator</h3>
-                        <p><a href="https://image-generator-da.netlify.app/" target="_blank">Ver</a></p>
-                    </div>
-                    <p class="proyecto-descripcion">
-                        Image Generator crea imágenes a partir de una inteligencia artificial, esto gracias a la api
-                        de OpenAi. Guarda las imágenes en Cloudinary y su información en MongoDB. Teconologías que usa: Node.js, Express.js, React.js, MongoDB.
-                    </p> 
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCION CONTACTO -->
-    <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!-- Formulario -->
-                <form class="col" method="POST" action="/send-email">
-                    <input type="text" placeholder="Nombre" name="name">
-                    <input type="text" placeholder="Número de teléfono" name="phone">
-                    <input type="text" placeholder="Dirección de correo" name="email">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" name="message"></textarea>
-                    <button type="submit">
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                </form>
             </div>
         </div>
     </section>
